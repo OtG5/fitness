@@ -148,7 +148,7 @@ footer p a {
 }
 
 /* Media Query for Tablet viewpot */
-@media screen and (min-width: 630px) {
+@media screen and (min-width: 630px),print {
 	
 	/* Tablet Viewport: show tablet-desktop class , hide mobile class */
 	.tablet-desktop {
@@ -215,7 +215,7 @@ header {
 }/* End of tablet Media query */
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px), print {
 	
 	/* Desktop Viewport: Style rule for header */
 	header {
@@ -262,8 +262,22 @@ header {
 	#exercises{
 		clear: left;
 	}
-	
-	
+}
+
+	/* Media Query for Large Desktop Viewports */
+	@media screen and (min-width: 1921px){
+		#container {
+			width: 1920px;
+			margin: 0 auto;
+			
+	}
+}
+	/* Media Query for Print */
+@media print {
+	body{
+		background-color: #fff;
+		color: #000;
+}
 }/* End OF Desktop Media Query */
 
 
