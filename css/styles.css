@@ -200,7 +200,7 @@ header {
 	#excercises dd {
 		padding: 0.5% 1% 2% 0;
 	} 
-}
+
 
 	.tel-num{
 		font-size: 1.25em;
@@ -253,7 +253,7 @@ header {
 		font-size: 1.8em;
 	}
 	
-	#weight, #cardio, #training {
+	#weights, #cardio, #training {
 		width: 29%;
 		float: left;
 		margin: 0 2%;
